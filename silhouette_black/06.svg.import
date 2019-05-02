@@ -2,19 +2,21 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/06.svg-f5bda4cef8a830f85e797eb43bd86cfe.stex"
+path.s3tc="res://.import/06.svg-f5bda4cef8a830f85e797eb43bd86cfe.s3tc.stex"
+path.etc2="res://.import/06.svg-f5bda4cef8a830f85e797eb43bd86cfe.etc2.stex"
 metadata={
-"vram_texture": false
+"imported_formats": [ "s3tc", "etc2" ],
+"vram_texture": true
 }
 
 [deps]
 
 source_file="res://silhouette_black/06.svg"
-dest_files=[ "res://.import/06.svg-f5bda4cef8a830f85e797eb43bd86cfe.stex" ]
+dest_files=[ "res://.import/06.svg-f5bda4cef8a830f85e797eb43bd86cfe.s3tc.stex", "res://.import/06.svg-f5bda4cef8a830f85e797eb43bd86cfe.etc2.stex" ]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/bptc_ldr=0
@@ -31,4 +33,4 @@ process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true
-svg/scale=1.0
+svg/scale=0.25
