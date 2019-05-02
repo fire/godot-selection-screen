@@ -18,9 +18,14 @@
 [ext_resource path="res://silhouette_black/08.svg" type="Texture" id=16]
 
 [node name="Container" type="Control"]
-margin_top = 1914.0
-margin_right = 2757.0
-margin_bottom = 3822.0
+margin_left = 244.737
+margin_top = 123.063
+margin_right = 3001.74
+margin_bottom = 2031.06
+rect_scale = Vector2( 0.25, 0.25 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="GridContainer" type="GridContainer" parent="."]
 margin_right = 40.0
