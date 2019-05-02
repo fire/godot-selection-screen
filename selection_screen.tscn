@@ -9,65 +9,70 @@
 [ext_resource path="res://silhouette_black/07.svg" type="Texture" id=7]
 [ext_resource path="res://silhouette_black/08.svg" type="Texture" id=8]
 
-[node name="GridContainer" type="GridContainer"]
-margin_right = 2740.0
-margin_bottom = 1788.0
+[node name="Container" type="Control"]
+margin_top = 1914.0
+margin_right = 2757.0
+margin_bottom = 3822.0
+
+[node name="GridContainer" type="GridContainer" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
 columns = 4
 
-[node name="TextureRect" type="TextureRect" parent="."]
+[node name="01" type="TextureRect" parent="GridContainer"]
 margin_right = 682.0
 margin_bottom = 877.0
 texture = ExtResource( 1 )
 stretch_mode = 7
 
-[node name="TextureRect6" type="TextureRect" parent="."]
+[node name="02" type="TextureRect" parent="GridContainer"]
 margin_left = 686.0
 margin_right = 1368.0
 margin_bottom = 877.0
 texture = ExtResource( 2 )
 stretch_mode = 7
 
-[node name="TextureRect4" type="TextureRect" parent="."]
+[node name="03" type="TextureRect" parent="GridContainer"]
 margin_left = 1372.0
 margin_right = 2054.0
 margin_bottom = 877.0
 texture = ExtResource( 3 )
 stretch_mode = 7
 
-[node name="TextureRect8" type="TextureRect" parent="."]
+[node name="04" type="TextureRect" parent="GridContainer"]
 margin_left = 2058.0
 margin_right = 2740.0
 margin_bottom = 877.0
 texture = ExtResource( 4 )
 stretch_mode = 7
 
-[node name="TextureRect2" type="TextureRect" parent="."]
+[node name="05" type="TextureRect" parent="GridContainer"]
 margin_top = 881.0
 margin_right = 682.0
-margin_bottom = 1823.0
+margin_bottom = 1916.0
 texture = ExtResource( 5 )
 stretch_mode = 7
 
-[node name="TextureRect5" type="TextureRect" parent="."]
+[node name="06" type="TextureRect" parent="GridContainer"]
 margin_left = 686.0
 margin_top = 881.0
 margin_right = 1368.0
-margin_bottom = 1823.0
+margin_bottom = 1916.0
 texture = ExtResource( 6 )
 stretch_mode = 7
 
-[node name="TextureRect3" type="TextureRect" parent="."]
+[node name="07" type="TextureRect" parent="GridContainer"]
 margin_left = 1372.0
 margin_top = 881.0
 margin_right = 2054.0
-margin_bottom = 1823.0
+margin_bottom = 1916.0
 texture = ExtResource( 7 )
 stretch_mode = 7
 
-[node name="TextureRect7" type="TextureRect" parent="."]
+[node name="08" type="TextureRect" parent="GridContainer"]
 margin_left = 2058.0
 margin_top = 881.0
 margin_right = 2740.0
-margin_bottom = 1823.0
+margin_bottom = 1916.0
 texture = ExtResource( 8 )
 stretch_mode = 7
